@@ -1,0 +1,25 @@
+# Виртуальное окружение
+env/
+venv/
+ENV/
+.env.dev/
+# Кэш Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Временные файлы базы данных
+*.sqlite3-journal
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Настройки редакторов кода
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
